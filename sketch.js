@@ -65,13 +65,13 @@ for (let i = 0; i < numBirdy5; i++){
 
 cloud4 = loadImage("clous.png");
 
-sky = loadImage("skyyy.jpeg");
+// sky = loadImage("skyyy.jpeg");
 
 mouse = loadImage("mouse.png");
 
 plane1 = loadImage("plane2.gif");
 
-hills = loadImage("hills.png");
+// hills = loadImage("hills.png");
 
 balloon = loadImage("balloon.gif");
 
