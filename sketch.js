@@ -1,7 +1,5 @@
 // - change sky (collaged sky)
 
-let bird = [];
-numBirdy = 17;
 
 let bird2 = [];
 numBirdy2 = 26;
@@ -44,8 +42,6 @@ let a;
 //------------------------------------------
 
 function preload(){
-for (let i = 0; i < numBirdy; i++){
-  bird[i] = loadImage("bird"+i+".png");}
 
 for (let i = 0; i < numBirdy2; i++){
     bird2[i] = loadImage("bird2"+i+".png");
@@ -127,14 +123,6 @@ function draw() {
   image(mouse, mouseX, mouseY, 30, 40);
 
   //------------------------------------------
-
-  if (millis()>nextTimer){ 
-      whichFrame = whichFrame + 1;
-      if(whichFrame >= bird.length){
-        whichFrame = 0;
-      }
-      nextTimer = millis() + delay;
-  }
 
   if (millis()>nextTimer2){ 
     whichFrame2 = whichFrame2 + 1;
